@@ -95,9 +95,9 @@ python -m streamlit run app.py
 
 Intelligent-Dataset-Insight-Generator/
 │
-├── app.py                  # Main Streamlit application (UI + logic)
-├── requirements.txt        # Project dependencies
-├── assets/                 # Screenshots used in README
+├── app.py                  
+├── requirements.txt        
+├── assets/                 
 │   ├── 01_dashboard_overview.png
 │   ├── 02_column_data_types.png
 │   ├── 03_missing_value_analysis.png
@@ -106,7 +106,7 @@ Intelligent-Dataset-Insight-Generator/
 │   ├── 06_correlation_heatmap.png
 │   ├── 07_outlier_detection_iqr.png
 │   └── 08_ai_generated_insights.png
-└── README.md               # Project documentation
+└── README.md               
 
 ### Future Improvements
 
