@@ -93,34 +93,16 @@ or
 python -m streamlit run app.py
 ```
 
+---
+
 ### Project Structure
 
-Intelligent-Dataset-Insight-Generator/
-│
+app.py        → Main application (UI + EDA logic)
+assets/       → Screenshots for README demo
+requirements.txt → Project dependencies
+README.md     → Project documentation  
 
-├── app.py                  
-
-├── requirements.txt        
-
-├── assets/                 
-
-│   ├── 01_dashboard_overview.png
-
-│   ├── 02_column_data_types.png
-
-│   ├── 03_missing_value_analysis.png
-
-│   ├── 04_numerical_columns_summary.png
-
-│   ├── 05_categorical_columns_summary.png
-
-│   ├── 06_correlation_heatmap.png
-
-│   ├── 07_outlier_detection_iqr.png
-
-│   └── 08_ai_generated_insights.png
-
-└── README.md               
+---
 
 ### Future Improvements
 
