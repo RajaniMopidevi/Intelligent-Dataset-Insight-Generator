@@ -1,8 +1,10 @@
 ## Intelligent Dataset Insight Generator  
 
-An AI-powered data analysis dashboard built using **Streamlit** and **Pandas**. The application allows users to upload any CSV dataset and automatically perform exploratory data analysis (EDA), detect data quality issues, visualize correlations, and generate AI-driven analytical insights.  
+An AI-powered data analysis application built using **Streamlit** and **Pandas** that automates exploratory data analysis (EDA) and generates meaningful insights from structured datasets.
 
-This project was built to strengthen hands-on skills in data profiling, statistical analysis, visualization, and integrating local LLMs into real-world data applications.
+The application allows users to upload CSV datasets and instantly perform data profiling, detect data quality issues, visualize relationships, and generate **AI-driven insights using a local LLM**.
+
+This project focuses on reducing manual effort in data exploration by transforming raw datasets into structured, interpretable insights for faster and more efficient decision-making.
 
 ---
 
@@ -38,13 +40,13 @@ This project was built to strengthen hands-on skills in data profiling, statisti
 
 - Upload any CSV dataset for automated analysis  
 - Automatic dataset preview (top records)  
-- Column data type identification  
-- Missing value analysis with percentage calculation  
-- Numerical statistical summary with skewness  
-- Categorical summary (unique values, most frequent value)  
-- Correlation heatmap visualization using Seaborn  
+- Column data type detection 
+- Missing value analysis with percentage insights 
+- Numerical statistics (mean, median, skewness)
+- Categorical summary (unique values,frequency distribution)  
+- Correlation heatmap visualization 
 - Outlier detection using the IQR method  
-- AI-generated:
+- AI-powered insights using a local LLM:
   - Business insights  
   - Data quality issues  
   - Preprocessing recommendations  
@@ -122,9 +124,9 @@ Intelligent-Dataset-Insight-Generator/
 
 ### Future Improvements
 
-- Export complete EDA report as PDF
+- Export full EDA report as PDF
 - Add automated preprocessing pipeline
 - Enable cleaned dataset download
-- Add feature importance suggestions
+- Introduce feature importance suggestions
 - Deploy using Streamlit Cloud or Docker
 - Add authentication for multi-user access
