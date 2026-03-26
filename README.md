@@ -96,11 +96,12 @@ python -m streamlit run app.py
 ---
 
 ### Project Structure
-
+```bash
 app.py        → Main application (UI + EDA logic)
 assets/       → Screenshots for README demo
 requirements.txt → Project dependencies
 README.md     → Project documentation  
+```
 
 ---
 
